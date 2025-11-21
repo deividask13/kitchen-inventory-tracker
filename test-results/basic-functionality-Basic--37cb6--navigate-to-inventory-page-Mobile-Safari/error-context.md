@@ -1,0 +1,91 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - banner [ref=e5]:
+        - heading "Kitchen Tracker" [level=1] [ref=e6]
+        - button "Toggle menu" [ref=e7] [cursor=pointer]:
+          - img [ref=e8]
+      - main [ref=e9]:
+        - generic [ref=e11]:
+          - generic [ref=e12]:
+            - generic [ref=e13]:
+              - heading "Kitchen Inventory" [level=1] [ref=e14]:
+                - img [ref=e15]
+                - text: Kitchen Inventory
+              - paragraph [ref=e19]: Manage your kitchen items, track quantities, and monitor expiration dates
+            - button "Add Item" [ref=e20] [cursor=pointer]:
+              - generic [ref=e21]:
+                - img [ref=e22]
+                - text: Add Item
+          - generic [ref=e23]:
+            - generic [ref=e25]:
+              - generic [ref=e28]:
+                - img [ref=e30]
+                - textbox "Search items by name, category, notes, or location..." [ref=e34]
+              - button "Filters" [ref=e35] [cursor=pointer]:
+                - generic [ref=e36]:
+                  - img [ref=e37]
+                  - text: Filters
+            - generic [ref=e38]:
+              - generic [ref=e39]:
+                - button [ref=e40] [cursor=pointer]:
+                  - img [ref=e42]
+                - button [ref=e44] [cursor=pointer]:
+                  - img [ref=e46]
+              - generic [ref=e47]: 0 items
+            - generic [ref=e48]:
+              - generic [ref=e49]: "Sort by:"
+              - button "Name" [ref=e50] [cursor=pointer]:
+                - generic [ref=e51]:
+                  - text: Name
+                  - img [ref=e52]
+              - button "Quantity" [ref=e54] [cursor=pointer]:
+                - generic [ref=e55]: Quantity
+              - button "Expiration" [ref=e56] [cursor=pointer]:
+                - generic [ref=e57]: Expiration
+              - button "Category" [ref=e58] [cursor=pointer]:
+                - generic [ref=e59]: Category
+              - button "Location" [ref=e60] [cursor=pointer]:
+                - generic [ref=e61]: Location
+            - generic [ref=e62]:
+              - img [ref=e64]
+              - heading "No items found" [level=3] [ref=e68]
+              - paragraph [ref=e69]: Start by adding your first inventory item.
+    - navigation [ref=e70]:
+      - generic [ref=e71]:
+        - tab "Dashboard" [ref=e72]:
+          - generic [ref=e73]:
+            - img [ref=e75]
+            - generic [ref=e80]: Dashboard
+        - tab "Inventory" [selected] [ref=e81]:
+          - generic [ref=e83]:
+            - img [ref=e85]
+            - generic [ref=e89]: Inventory
+        - tab "Shopping" [ref=e90]:
+          - generic [ref=e91]:
+            - img [ref=e93]
+            - generic [ref=e97]: Shopping
+        - tab "Settings" [ref=e98]:
+          - generic [ref=e99]:
+            - img [ref=e101]
+            - generic [ref=e104]: Settings
+  - button "Open help center" [ref=e105] [cursor=pointer]:
+    - img [ref=e107]
+  - generic [ref=e114] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e115]:
+      - img [ref=e116]
+    - generic [ref=e121]:
+      - button "Open issues overlay" [ref=e122]:
+        - generic [ref=e123]:
+          - generic [ref=e124]: "0"
+          - generic [ref=e125]: "1"
+        - generic [ref=e126]: Issue
+      - button "Collapse issues badge" [ref=e127]:
+        - img [ref=e128]
+  - alert [ref=e130]
+```

@@ -1,0 +1,154 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - button "Expand sidebar" [ref=e6] [cursor=pointer]:
+        - img [ref=e8]
+      - navigation [ref=e10]:
+        - link "Dashboard" [ref=e11] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e14]
+          - generic: Dashboard
+        - link "Inventory" [ref=e19] [cursor=pointer]:
+          - /url: /inventory
+          - img [ref=e21]
+          - generic: Inventory
+        - link "Shopping" [ref=e25] [cursor=pointer]:
+          - /url: /shopping
+          - img [ref=e27]
+          - generic: Shopping
+        - link "Settings" [ref=e31] [cursor=pointer]:
+          - /url: /settings
+          - img [ref=e33]
+          - generic: Settings
+    - main [ref=e38]:
+      - generic [ref=e40]:
+        - heading "Dashboard" [level=1] [ref=e42]
+        - generic [ref=e44]:
+          - button "➕ Add Item Add new inventory item" [ref=e45] [cursor=pointer]:
+            - generic [ref=e46]:
+              - generic [ref=e47]: ➕
+              - generic [ref=e48]: Add Item
+              - generic [ref=e49]: Add new inventory item
+          - button "🛒 Add to Shopping Quick add to shopping list" [ref=e50] [cursor=pointer]:
+            - generic [ref=e51]:
+              - generic [ref=e52]: 🛒
+              - generic [ref=e53]: Add to Shopping
+              - generic [ref=e54]: Quick add to shopping list
+          - button "⚠️ Low Stock → Shopping Add low stock items to shopping list" [ref=e55] [cursor=pointer]:
+            - generic [ref=e56]:
+              - generic [ref=e57]: ⚠️
+              - generic [ref=e58]: Low Stock → Shopping
+              - generic [ref=e59]: Add low stock items to shopping list
+          - button "⏰ Replace Expiring Add replacements for expiring items" [ref=e60] [cursor=pointer]:
+            - generic [ref=e61]:
+              - generic [ref=e62]: ⏰
+              - generic [ref=e63]: Replace Expiring
+              - generic [ref=e64]: Add replacements for expiring items
+        - generic [ref=e65]:
+          - generic [ref=e66]:
+            - generic [ref=e67]:
+              - generic [ref=e68]:
+                - generic [ref=e73]:
+                  - paragraph [ref=e74]: Total Items
+                  - paragraph [ref=e75]: "0"
+                  - paragraph [ref=e76]: Active inventory items
+                - generic [ref=e81]:
+                  - paragraph [ref=e82]: Expiring Soon
+                  - paragraph [ref=e83]: "0"
+                  - paragraph [ref=e84]: Items expiring within 7 days
+                - generic [ref=e89]:
+                  - paragraph [ref=e90]: Low Stock
+                  - paragraph [ref=e91]: "0"
+                  - paragraph [ref=e92]: Items running low
+                - generic [ref=e97]:
+                  - paragraph [ref=e98]: Unused Items
+                  - paragraph [ref=e99]: "0"
+                  - paragraph [ref=e100]: Not used in 30+ days
+              - heading "Storage Locations" [level=3] [ref=e104]
+            - generic [ref=e105]:
+              - generic [ref=e107]:
+                - heading "Weekly Activity" [level=3] [ref=e109]
+                - generic [ref=e111]:
+                  - generic [ref=e112]:
+                    - generic [ref=e113]:
+                      - generic [ref=e114]: Sat
+                      - generic [ref=e115]: +0 | -0 | ✗0
+                    - generic [ref=e116]:
+                      - generic "0 items added"
+                      - generic "0 items used"
+                      - generic "0 items expired"
+                  - generic [ref=e117]:
+                    - generic [ref=e118]:
+                      - generic [ref=e119]: Sun
+                      - generic [ref=e120]: +0 | -0 | ✗0
+                    - generic [ref=e121]:
+                      - generic "0 items added"
+                      - generic "0 items used"
+                      - generic "0 items expired"
+                  - generic [ref=e122]:
+                    - generic [ref=e123]:
+                      - generic [ref=e124]: Mon
+                      - generic [ref=e125]: +0 | -0 | ✗0
+                    - generic [ref=e126]:
+                      - generic "0 items added"
+                      - generic "0 items used"
+                      - generic "0 items expired"
+                  - generic [ref=e127]:
+                    - generic [ref=e128]:
+                      - generic [ref=e129]: Tue
+                      - generic [ref=e130]: +0 | -0 | ✗0
+                    - generic [ref=e131]:
+                      - generic "0 items added"
+                      - generic "0 items used"
+                      - generic "0 items expired"
+                  - generic [ref=e132]:
+                    - generic [ref=e133]:
+                      - generic [ref=e134]: Wed
+                      - generic [ref=e135]: +0 | -0 | ✗0
+                    - generic [ref=e136]:
+                      - generic "0 items added"
+                      - generic "0 items used"
+                      - generic "0 items expired"
+                  - generic [ref=e137]:
+                    - generic [ref=e138]:
+                      - generic [ref=e139]: Thu
+                      - generic [ref=e140]: +0 | -0 | ✗0
+                    - generic [ref=e141]:
+                      - generic "0 items added"
+                      - generic "0 items used"
+                      - generic "0 items expired"
+                  - generic [ref=e142]:
+                    - generic [ref=e143]:
+                      - generic [ref=e144]: Fri
+                      - generic [ref=e145]: +0 | -0 | ✗0
+                    - generic [ref=e146]:
+                      - generic "0 items added"
+                      - generic "0 items used"
+                      - generic "0 items expired"
+                  - generic [ref=e147]:
+                    - generic [ref=e150]: Added
+                    - generic [ref=e153]: Used
+                    - generic [ref=e156]: Expired
+              - generic [ref=e158]:
+                - heading "Category Insights" [level=3] [ref=e160]
+                - generic [ref=e163]:
+                  - paragraph [ref=e164]: No insights available yet
+                  - paragraph [ref=e165]: Add more items to see patterns
+          - generic [ref=e168]:
+            - heading "Expiring Items" [level=3] [ref=e170]:
+              - generic [ref=e171]: Expiring Items
+            - generic [ref=e174]:
+              - generic [ref=e175]: ✓
+              - paragraph [ref=e176]: No items expiring soon
+              - paragraph [ref=e177]: All your items are fresh!
+    - button "Keyboard Shortcuts (Ctrl + ?)" [ref=e178] [cursor=pointer]:
+      - img [ref=e180]
+  - button "Open help center" [ref=e182] [cursor=pointer]:
+    - img [ref=e184]
+  - alert [ref=e187]
+```

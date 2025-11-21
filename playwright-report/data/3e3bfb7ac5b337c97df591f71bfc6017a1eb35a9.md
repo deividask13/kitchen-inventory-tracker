@@ -1,0 +1,148 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - banner [ref=e5]:
+        - heading "Kitchen Tracker" [level=1] [ref=e6]
+        - button "Toggle menu" [ref=e7] [cursor=pointer]:
+          - img [ref=e8]
+      - main [ref=e9]:
+        - generic [ref=e11]:
+          - generic [ref=e12]:
+            - generic [ref=e13]:
+              - heading "Settings" [level=1] [ref=e14]:
+                - img [ref=e15]
+                - text: Settings
+              - paragraph [ref=e18]: Customize your kitchen inventory experience
+            - generic [ref=e19]:
+              - button "Reset to Defaults" [ref=e20] [cursor=pointer]:
+                - generic [ref=e21]:
+                  - img [ref=e22]
+                  - text: Reset to Defaults
+              - button "Save Changes" [disabled]:
+                - generic:
+                  - img
+                  - text: Save Changes
+          - generic [ref=e25]:
+            - button "General Settings" [ref=e26] [cursor=pointer]:
+              - img [ref=e27]
+              - text: General Settings
+            - button "Categories" [ref=e30] [cursor=pointer]:
+              - img [ref=e31]
+              - text: Categories
+            - button "Data Management" [ref=e34] [cursor=pointer]:
+              - img [ref=e35]
+              - text: Data Management
+          - generic [ref=e39]:
+            - generic [ref=e41]:
+              - generic [ref=e42]:
+                - img [ref=e43]
+                - heading "Inventory Alerts" [level=2] [ref=e46]
+              - generic [ref=e47]:
+                - generic [ref=e48]:
+                  - generic [ref=e49]: Low Stock Threshold
+                  - spinbutton [ref=e53]: "5"
+                  - paragraph [ref=e54]: Items with quantity at or below this number will be marked as low stock
+                - generic [ref=e55]:
+                  - generic [ref=e56]: Expiration Warning (Days)
+                  - spinbutton [ref=e60]: "7"
+                  - paragraph [ref=e61]: Show expiration warnings this many days in advance
+            - generic [ref=e63]:
+              - generic [ref=e64]:
+                - img [ref=e65]
+                - heading "Default Preferences" [level=2] [ref=e67]
+              - generic [ref=e68]:
+                - generic [ref=e69]:
+                  - generic [ref=e70]: Default Storage Location
+                  - combobox [ref=e71]:
+                    - option "Fridge"
+                    - option "Freezer"
+                    - option "Pantry" [selected]
+                  - paragraph [ref=e72]: New items will default to this storage location
+                - generic [ref=e73]:
+                  - generic [ref=e74]: Preferred Units
+                  - generic [ref=e75]:
+                    - generic [ref=e76]:
+                      - text: pieces
+                      - button "Remove pieces" [ref=e77] [cursor=pointer]:
+                        - img [ref=e78]
+                    - generic [ref=e81]:
+                      - text: lbs
+                      - button "Remove lbs" [ref=e82] [cursor=pointer]:
+                        - img [ref=e83]
+                    - generic [ref=e86]:
+                      - text: oz
+                      - button "Remove oz" [ref=e87] [cursor=pointer]:
+                        - img [ref=e88]
+                    - generic [ref=e91]:
+                      - text: cups
+                      - button "Remove cups" [ref=e92] [cursor=pointer]:
+                        - img [ref=e93]
+                    - generic [ref=e96]:
+                      - text: liters
+                      - button "Remove liters" [ref=e97] [cursor=pointer]:
+                        - img [ref=e98]
+                    - generic [ref=e101]:
+                      - text: ml
+                      - button "Remove ml" [ref=e102] [cursor=pointer]:
+                        - img [ref=e103]
+                  - generic [ref=e106]:
+                    - textbox "Add new unit (e.g., kg, gallons)" [ref=e110]
+                    - button "Add" [ref=e111] [cursor=pointer]:
+                      - generic [ref=e112]:
+                        - img [ref=e113]
+                        - text: Add
+                  - paragraph [ref=e114]: These units will be available when adding inventory items
+            - generic [ref=e116]:
+              - generic [ref=e117]:
+                - img [ref=e118]
+                - heading "Appearance" [level=2] [ref=e124]
+              - generic [ref=e125]:
+                - generic [ref=e126]:
+                  - generic [ref=e127]: Theme
+                  - combobox [ref=e128]:
+                    - option "Light"
+                    - option "Dark"
+                    - option "System" [selected]
+                - generic [ref=e129]:
+                  - generic [ref=e130]:
+                    - checkbox "Reduce Motion" [ref=e131]
+                    - generic [ref=e132]: Reduce Motion
+                  - paragraph [ref=e133]: Minimize animations and transitions for better accessibility
+    - navigation [ref=e134]:
+      - generic [ref=e135]:
+        - tab "Dashboard" [ref=e136] [cursor=pointer]:
+          - generic [ref=e137]:
+            - img [ref=e139]
+            - generic [ref=e144]: Dashboard
+        - tab "Inventory" [ref=e145] [cursor=pointer]:
+          - generic [ref=e146]:
+            - img [ref=e148]
+            - generic [ref=e152]: Inventory
+        - tab "Shopping" [ref=e153] [cursor=pointer]:
+          - generic [ref=e154]:
+            - img [ref=e156]
+            - generic [ref=e160]: Shopping
+        - tab "Settings" [selected] [ref=e161] [cursor=pointer]:
+          - generic [ref=e163]:
+            - img [ref=e165]
+            - generic [ref=e168]: Settings
+  - button "Open help center" [ref=e169] [cursor=pointer]:
+    - img [ref=e171]
+  - generic [ref=e178] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e179]:
+      - img [ref=e180]
+    - generic [ref=e183]:
+      - button "Open issues overlay" [ref=e184]:
+        - generic [ref=e185]:
+          - generic [ref=e186]: "0"
+          - generic [ref=e187]: "1"
+        - generic [ref=e188]: Issue
+      - button "Collapse issues badge" [ref=e189]:
+        - img [ref=e190]
+  - alert [ref=e192]
+```

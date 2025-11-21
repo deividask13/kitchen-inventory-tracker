@@ -1,0 +1,49 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - button "Expand sidebar" [ref=e6] [cursor=pointer]:
+        - img [ref=e8]
+      - navigation [ref=e10]:
+        - link "Dashboard" [ref=e11] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e13]
+          - generic: Dashboard
+        - link "Inventory" [ref=e18] [cursor=pointer]:
+          - /url: /inventory
+          - img [ref=e20]
+          - generic: Inventory
+        - link "Shopping" [ref=e25] [cursor=pointer]:
+          - /url: /shopping
+          - img [ref=e28]
+          - generic: Shopping
+        - link "Settings" [ref=e32] [cursor=pointer]:
+          - /url: /settings
+          - img [ref=e34]
+          - generic: Settings
+    - main [ref=e39]:
+      - generic [ref=e41]:
+        - generic [ref=e43]:
+          - img [ref=e44]
+          - heading "Shopping List" [level=1] [ref=e48]
+        - generic [ref=e50]:
+          - textbox "Item name" [ref=e51]
+          - spinbutton "Item quantity" [ref=e52]: "1"
+          - button "Add item to shopping list" [disabled] [ref=e53]: Add
+        - generic [ref=e54]:
+          - img [ref=e55]
+          - heading "Your shopping list is empty" [level=3] [ref=e59]
+          - paragraph [ref=e60]: Add items to get started with your shopping
+          - button "Add your first item" [ref=e61] [cursor=pointer]
+    - button "Keyboard Shortcuts (Ctrl + ?)" [ref=e62] [cursor=pointer]:
+      - img [ref=e64]
+  - button "Open help center" [ref=e74] [cursor=pointer]:
+    - img [ref=e76]
+  - button "Open Next.js Dev Tools" [ref=e85] [cursor=pointer]:
+    - img [ref=e86]
+  - alert [ref=e90]
+```

@@ -1,0 +1,49 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - banner [ref=e5]:
+        - heading "Kitchen Tracker" [level=1] [ref=e6]
+        - button "Toggle menu" [ref=e7] [cursor=pointer]:
+          - img [ref=e8]
+      - main [ref=e9]:
+        - generic [ref=e11]:
+          - generic [ref=e13]:
+            - img [ref=e14]
+            - heading "Shopping List" [level=1] [ref=e18]
+          - button "Add item to list" [ref=e19] [cursor=pointer]:
+            - img [ref=e20]
+            - generic [ref=e21]: Add item to list
+          - generic [ref=e22]:
+            - img [ref=e23]
+            - heading "Your shopping list is empty" [level=3] [ref=e27]
+            - paragraph [ref=e28]: Add items to get started with your shopping
+            - button "Add your first item" [ref=e29] [cursor=pointer]
+    - navigation [ref=e30]:
+      - generic [ref=e31]:
+        - tab "Dashboard" [ref=e32]:
+          - generic [ref=e33]:
+            - img [ref=e35]
+            - generic [ref=e40]: Dashboard
+        - tab "Inventory" [ref=e41]:
+          - generic [ref=e42]:
+            - img [ref=e44]
+            - generic [ref=e48]: Inventory
+        - tab "Shopping" [selected] [ref=e49]:
+          - generic [ref=e51]:
+            - img [ref=e53]
+            - generic [ref=e57]: Shopping
+        - tab "Settings" [ref=e58]:
+          - generic [ref=e59]:
+            - img [ref=e61]
+            - generic [ref=e64]: Settings
+  - button "Open help center" [ref=e65] [cursor=pointer]:
+    - img [ref=e67]
+  - button "Open Next.js Dev Tools" [ref=e75] [cursor=pointer]:
+    - img [ref=e76]
+  - alert [ref=e81]
+```

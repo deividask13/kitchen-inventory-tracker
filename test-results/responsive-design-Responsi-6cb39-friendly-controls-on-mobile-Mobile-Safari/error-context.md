@@ -1,0 +1,167 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - link "Skip to main content" [ref=e2]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - banner [ref=e5]:
+        - heading "Kitchen Tracker" [level=1] [ref=e6]
+        - button "Toggle menu" [ref=e7] [cursor=pointer]:
+          - img [ref=e8]
+      - main [ref=e9]:
+        - generic [ref=e11]:
+          - generic [ref=e12]:
+            - generic [ref=e13]:
+              - heading "Kitchen Inventory" [level=1] [ref=e14]:
+                - img [ref=e15]
+                - text: Kitchen Inventory
+              - paragraph [ref=e19]: Manage your kitchen items, track quantities, and monitor expiration dates
+            - button "Add Item" [active] [ref=e20] [cursor=pointer]:
+              - generic [ref=e21]:
+                - img [ref=e22]
+                - text: Add Item
+          - generic [ref=e23]:
+            - generic [ref=e25]:
+              - generic [ref=e28]:
+                - img [ref=e30]
+                - textbox "Search items by name, category, notes, or location..." [ref=e34]
+              - button "Filters" [ref=e35] [cursor=pointer]:
+                - generic [ref=e36]:
+                  - img [ref=e37]
+                  - text: Filters
+            - generic [ref=e38]:
+              - generic [ref=e39]:
+                - button [ref=e40] [cursor=pointer]:
+                  - img [ref=e42]
+                - button [ref=e44] [cursor=pointer]:
+                  - img [ref=e46]
+              - generic [ref=e47]: 0 items
+            - generic [ref=e48]:
+              - generic [ref=e49]: "Sort by:"
+              - button "Name" [ref=e50] [cursor=pointer]:
+                - generic [ref=e51]:
+                  - text: Name
+                  - img [ref=e52]
+              - button "Quantity" [ref=e54] [cursor=pointer]:
+                - generic [ref=e55]: Quantity
+              - button "Expiration" [ref=e56] [cursor=pointer]:
+                - generic [ref=e57]: Expiration
+              - button "Category" [ref=e58] [cursor=pointer]:
+                - generic [ref=e59]: Category
+              - button "Location" [ref=e60] [cursor=pointer]:
+                - generic [ref=e61]: Location
+            - generic [ref=e62]:
+              - img [ref=e64]
+              - heading "No items found" [level=3] [ref=e68]
+              - paragraph [ref=e69]: Start by adding your first inventory item.
+    - navigation [ref=e70]:
+      - generic [ref=e71]:
+        - tab "Dashboard" [ref=e72]:
+          - generic [ref=e73]:
+            - img [ref=e75]
+            - generic [ref=e80]: Dashboard
+        - tab "Inventory" [selected] [ref=e81]:
+          - generic [ref=e83]:
+            - img [ref=e85]
+            - generic [ref=e89]: Inventory
+        - tab "Shopping" [ref=e90]:
+          - generic [ref=e91]:
+            - img [ref=e93]
+            - generic [ref=e97]: Shopping
+        - tab "Settings" [ref=e98]:
+          - generic [ref=e99]:
+            - img [ref=e101]
+            - generic [ref=e104]: Settings
+  - button "Open help center" [ref=e105] [cursor=pointer]:
+    - img [ref=e107]
+  - generic [ref=e114] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e115]:
+      - img [ref=e116]
+    - generic [ref=e121]:
+      - button "Open issues overlay" [ref=e122]:
+        - generic [ref=e123]:
+          - generic [ref=e124]: "0"
+          - generic [ref=e125]: "1"
+        - generic [ref=e126]: Issue
+      - button "Collapse issues badge" [ref=e127]:
+        - img [ref=e128]
+  - alert [ref=e130]
+  - dialog "Add New Item" [ref=e133]:
+    - heading "Add New Item" [level=2] [ref=e135]
+    - button "Close modal" [ref=e136] [cursor=pointer]:
+      - img [ref=e137]
+    - generic [ref=e142]:
+      - heading "Add New Item" [level=3] [ref=e144]:
+        - img [ref=e145]
+        - text: Add New Item
+      - generic [ref=e150]:
+        - generic [ref=e152]:
+          - generic [ref=e153]: Item Name
+          - generic [ref=e154]:
+            - img [ref=e156]
+            - textbox "Item Name" [ref=e160]:
+              - /placeholder: e.g., Organic Milk, Chicken Breast
+        - generic [ref=e161]:
+          - generic [ref=e162]:
+            - generic [ref=e163]: Quantity
+            - generic [ref=e164]:
+              - img [ref=e166]
+              - spinbutton "Quantity" [ref=e171]: "1"
+          - generic [ref=e173]:
+            - generic [ref=e174]: Unit
+            - textbox "Unit" [ref=e177]:
+              - /placeholder: pieces, lbs, cups...
+              - text: pieces
+        - generic [ref=e178]:
+          - generic [ref=e179]:
+            - generic [ref=e180]: Location
+            - generic [ref=e181]:
+              - button "🧊 Fridge" [ref=e182] [cursor=pointer]:
+                - generic [ref=e183]: 🧊
+                - generic [ref=e184]: Fridge
+              - button "❄️ Freezer" [ref=e185] [cursor=pointer]:
+                - generic [ref=e186]: ❄️
+                - generic [ref=e187]: Freezer
+              - button "🏠 Pantry" [ref=e188] [cursor=pointer]:
+                - generic [ref=e189]: 🏠
+                - generic [ref=e190]: Pantry
+          - generic [ref=e191]:
+            - generic [ref=e192]: Category
+            - combobox [ref=e193]:
+              - option "Select category"
+              - option "Beverages" [selected]
+              - option "Condiments"
+              - option "Dairy"
+              - option "Frozen"
+              - option "Meat & Seafood"
+              - option "Pantry Staples"
+              - option "Produce"
+              - option "Snacks"
+        - generic [ref=e194]:
+          - generic [ref=e195]:
+            - generic [ref=e196]: Purchase Date
+            - generic [ref=e197]:
+              - img [ref=e199]
+              - textbox "Purchase Date" [ref=e202]: 2025-11-21
+          - generic [ref=e203]:
+            - generic [ref=e204]: Expiration Date (Optional)
+            - generic [ref=e205]:
+              - img [ref=e207]
+              - textbox "Expiration Date (Optional)" [ref=e210]
+            - status [ref=e211]: Leave empty if item doesn't expire
+        - generic [ref=e212]:
+          - generic [ref=e213]: Notes (Optional)
+          - textbox "Any additional notes about this item..." [ref=e214]
+          - paragraph [ref=e215]: 0/500 characters
+        - generic [ref=e216]:
+          - button "Add Item" [ref=e217] [cursor=pointer]:
+            - generic [ref=e218]:
+              - img [ref=e219]
+              - text: Add Item
+          - button "Cancel" [ref=e223] [cursor=pointer]:
+            - generic [ref=e224]:
+              - img [ref=e225]
+              - text: Cancel
+```

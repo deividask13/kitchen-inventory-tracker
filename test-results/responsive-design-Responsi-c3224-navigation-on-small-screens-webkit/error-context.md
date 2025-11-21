@@ -1,0 +1,157 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - banner [ref=e5]:
+        - heading "Kitchen Tracker" [level=1] [ref=e6]
+        - button "Toggle menu" [ref=e7] [cursor=pointer]:
+          - img [ref=e8]
+      - main [ref=e9]:
+        - generic [ref=e11]:
+          - heading "Dashboard" [level=1] [ref=e13]
+          - generic [ref=e15]:
+            - button "➕ Add Item Add new inventory item" [ref=e16] [cursor=pointer]:
+              - generic [ref=e17]:
+                - generic [ref=e18]: ➕
+                - generic [ref=e19]: Add Item
+                - generic [ref=e20]: Add new inventory item
+            - button "🛒 Add to Shopping Quick add to shopping list" [ref=e21] [cursor=pointer]:
+              - generic [ref=e22]:
+                - generic [ref=e23]: 🛒
+                - generic [ref=e24]: Add to Shopping
+                - generic [ref=e25]: Quick add to shopping list
+            - button "⚠️ Low Stock → Shopping Add low stock items to shopping list" [ref=e26] [cursor=pointer]:
+              - generic [ref=e27]:
+                - generic [ref=e28]: ⚠️
+                - generic [ref=e29]: Low Stock → Shopping
+                - generic [ref=e30]: Add low stock items to shopping list
+            - button "⏰ Replace Expiring Add replacements for expiring items" [ref=e31] [cursor=pointer]:
+              - generic [ref=e32]:
+                - generic [ref=e33]: ⏰
+                - generic [ref=e34]: Replace Expiring
+                - generic [ref=e35]: Add replacements for expiring items
+          - generic [ref=e36]:
+            - generic [ref=e37]:
+              - generic [ref=e38]:
+                - generic [ref=e39]:
+                  - generic [ref=e44]:
+                    - paragraph [ref=e45]: Total Items
+                    - paragraph [ref=e46]: "0"
+                    - paragraph [ref=e47]: Active inventory items
+                  - generic [ref=e52]:
+                    - paragraph [ref=e53]: Expiring Soon
+                    - paragraph [ref=e54]: "0"
+                    - paragraph [ref=e55]: Items expiring within 7 days
+                  - generic [ref=e60]:
+                    - paragraph [ref=e61]: Low Stock
+                    - paragraph [ref=e62]: "0"
+                    - paragraph [ref=e63]: Items running low
+                  - generic [ref=e68]:
+                    - paragraph [ref=e69]: Unused Items
+                    - paragraph [ref=e70]: "0"
+                    - paragraph [ref=e71]: Not used in 30+ days
+                - heading "Storage Locations" [level=3] [ref=e75]
+              - generic [ref=e76]:
+                - generic [ref=e78]:
+                  - heading "Weekly Activity" [level=3] [ref=e80]
+                  - generic [ref=e82]:
+                    - generic [ref=e83]:
+                      - generic [ref=e84]:
+                        - generic [ref=e85]: Sat
+                        - generic [ref=e86]: +0 | -0 | ✗0
+                      - generic [ref=e87]:
+                        - generic "0 items added"
+                        - generic "0 items used"
+                        - generic "0 items expired"
+                    - generic [ref=e88]:
+                      - generic [ref=e89]:
+                        - generic [ref=e90]: Sun
+                        - generic [ref=e91]: +0 | -0 | ✗0
+                      - generic [ref=e92]:
+                        - generic "0 items added"
+                        - generic "0 items used"
+                        - generic "0 items expired"
+                    - generic [ref=e93]:
+                      - generic [ref=e94]:
+                        - generic [ref=e95]: Mon
+                        - generic [ref=e96]: +0 | -0 | ✗0
+                      - generic [ref=e97]:
+                        - generic "0 items added"
+                        - generic "0 items used"
+                        - generic "0 items expired"
+                    - generic [ref=e98]:
+                      - generic [ref=e99]:
+                        - generic [ref=e100]: Tue
+                        - generic [ref=e101]: +0 | -0 | ✗0
+                      - generic [ref=e102]:
+                        - generic "0 items added"
+                        - generic "0 items used"
+                        - generic "0 items expired"
+                    - generic [ref=e103]:
+                      - generic [ref=e104]:
+                        - generic [ref=e105]: Wed
+                        - generic [ref=e106]: +0 | -0 | ✗0
+                      - generic [ref=e107]:
+                        - generic "0 items added"
+                        - generic "0 items used"
+                        - generic "0 items expired"
+                    - generic [ref=e108]:
+                      - generic [ref=e109]:
+                        - generic [ref=e110]: Thu
+                        - generic [ref=e111]: +0 | -0 | ✗0
+                      - generic [ref=e112]:
+                        - generic "0 items added"
+                        - generic "0 items used"
+                        - generic "0 items expired"
+                    - generic [ref=e113]:
+                      - generic [ref=e114]:
+                        - generic [ref=e115]: Fri
+                        - generic [ref=e116]: +0 | -0 | ✗0
+                      - generic [ref=e117]:
+                        - generic "0 items added"
+                        - generic "0 items used"
+                        - generic "0 items expired"
+                    - generic [ref=e118]:
+                      - generic [ref=e121]: Added
+                      - generic [ref=e124]: Used
+                      - generic [ref=e127]: Expired
+                - generic [ref=e129]:
+                  - heading "Category Insights" [level=3] [ref=e131]
+                  - generic [ref=e134]:
+                    - paragraph [ref=e135]: No insights available yet
+                    - paragraph [ref=e136]: Add more items to see patterns
+            - generic [ref=e139]:
+              - heading "Expiring Items" [level=3] [ref=e141]:
+                - generic [ref=e142]: Expiring Items
+              - generic [ref=e145]:
+                - generic [ref=e146]: ✓
+                - paragraph [ref=e147]: No items expiring soon
+                - paragraph [ref=e148]: All your items are fresh!
+    - navigation [ref=e149]:
+      - generic [ref=e150]:
+        - tab "Dashboard" [selected] [ref=e151]:
+          - generic [ref=e153]:
+            - img [ref=e155]
+            - generic [ref=e160]: Dashboard
+        - tab "Inventory" [ref=e161]:
+          - generic [ref=e162]:
+            - img [ref=e164]
+            - generic [ref=e168]: Inventory
+        - tab "Shopping" [ref=e169]:
+          - generic [ref=e170]:
+            - img [ref=e172]
+            - generic [ref=e176]: Shopping
+        - tab "Settings" [ref=e177]:
+          - generic [ref=e178]:
+            - img [ref=e180]
+            - generic [ref=e183]: Settings
+  - button "Open help center" [ref=e184] [cursor=pointer]:
+    - img [ref=e186]
+  - button "Open Next.js Dev Tools" [ref=e194] [cursor=pointer]:
+    - img [ref=e195]
+  - alert [ref=e200]
+```
